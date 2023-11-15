@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T01:50:33.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.1" etag="cMpN-90HVWrOEDliXI6O" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T01:59:29.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YaZ9687rzm1sfv8No8hR" version="22.1.1" type="github">
   <diagram name="第 1 页" id="DvIXfxH6a8s5lPYMq5TA">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0W5fBk5uuDosLY0Hxa6x-1" target="0W5fBk5uuDosLY0Hxa6x-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-10" value="Wireguard" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-9">
+          <mxGeometry x="0.0741" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-1" value="阿里云杭州机房&lt;br&gt;10.10.0.0/16" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="161" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0W5fBk5uuDosLY0Hxa6x-2" target="0W5fBk5uuDosLY0Hxa6x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-20" value="Ipsec VPN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-7">
+          <mxGeometry x="-0.2565" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-2" value="深圳办公室&lt;br&gt;192.168.30.0/&#39;23" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="80" y="321" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0W5fBk5uuDosLY0Hxa6x-3" target="0W5fBk5uuDosLY0Hxa6x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-23" value="IPsec&lt;br&gt;&amp;nbsp;VPN&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-14">
+          <mxGeometry x="-0.0321" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-3" value="杭州办公室&lt;br&gt;192.168.20.0/23" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="470" width="105" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0W5fBk5uuDosLY0Hxa6x-4" target="0W5fBk5uuDosLY0Hxa6x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-21" value="IPsec VPN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-6">
+          <mxGeometry x="-0.2133" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-4" value="上海办公室&lt;br&gt;192.168.40.0/23" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="850" y="321" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-8" value="成都机房&lt;br&gt;10.30.0.0/16" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0W5fBk5uuDosLY0Hxa6x-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="451" as="sourcePoint" />
+            <mxPoint x="130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-26" value="Ipsec" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-19">
+          <mxGeometry x="0.1016" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.188;entryY=0.981;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0W5fBk5uuDosLY0Hxa6x-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="sourcePoint" />
+            <mxPoint x="610" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0W5fBk5uuDosLY0Hxa6x-25" value="Ipsec" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0W5fBk5uuDosLY0Hxa6x-24">
+          <mxGeometry x="-0.0783" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
